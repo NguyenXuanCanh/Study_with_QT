@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    font-size: 14px;
+}
+body{
+    background-image: url(./img/keo-bua-bao.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h1{
+    margin-top:12%;
+}
+h1 div{
+    color: #f73a3a;
+    font-size:3rem;
+}   
+h1 button{
+    font-size:2rem !important;
+}
+button#btnReject{
+
+    /* position: absolute; */
+    /* top:50%; */
+    /* left:50%; */
+}
+.inputZone{
+    width:50%;
+}
+.option__zone{
+    margin-top:350px;
+}
+.option__zone img{
+    width:19%;
+    padding:0px 20px 0px 20px;
+    opacity: 0.8;
+    transition:0.5s;
+}
+.option__zone img:hover{
+    cursor: pointer;
+    width:20%;
+    opacity: 1;
+}
